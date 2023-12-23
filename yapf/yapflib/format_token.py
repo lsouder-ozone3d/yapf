@@ -84,7 +84,7 @@ class FormatToken(object):
     newlines: The number of newlines needed before this token.
   """
 
-  def __init__(self, node, name, prefix):
+  def __init__(self, node, name, prefix=""):
     """Constructor.
 
     Arguments:
